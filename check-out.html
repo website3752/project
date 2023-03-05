@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Check Out</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><span>CARS</span>HUB</a>
+      <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="cars.html">Cars</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+  <section>
+    <form class="check-out-form" action="index.html" method="post">
+      <div class="billing">
+        <h3>Billing Address</h3>
+        <label for="fname"><i class="fa fa-user"></i>Full Name</label>
+        <input type="text" name="" value="" placeholder="Full Name">
+
+        <label for="email"><i class="fa fa-envelope"></i>Email</label>
+                <input type="text" id="email" name="email" placeholder="@example.com">
+                <label for="adr"><i class="fa fa-address-card"></i>Address</label>
+                <input type="text" id="adr" name="address" placeholder="Address">
+                <label for="city"><i class="fa fa-institution"></i>City</label>
+                <input type="text" id="city" name="city" placeholder="City Name">
+      </div>
+      <div class="payment">
+        <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="card-icon">
+              <i class="fa-brands fa-cc-visa"></i>
+              <i class="fa-brands fa-cc-amex"></i>
+              <i class="fa-brands fa-cc-mastercard"></i>
+              <i class="fa-brands fa-cc-discover"></i>
+              <i class="fa-brands fa-cc-paypal"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="Name on Card">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="Expiry Month">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="Expiry Date">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+                <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+          <input type="submit" value="Continue to checkout" class="btn-check">
+      </div>
+
+    </form>
+  </section>
+  <section class="footer" id="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Our Branches</h3>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i>Rawalpindi</a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i>Lahore</a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i>Peshawar</a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i>Multan</a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i>Islamabad</a>
+      </div>
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Home </a>
+        <a href="featured.html"> <i class="fas fa-arrow-right"></i> Cars </a>
+        <a href="reviews.html"> <i class="fas fa-arrow-right"></i> Reviews </a>
+        <a href="contact.html"> <i class="fas fa-arrow-right"></i> Contact </a>
+      </div>
+      <div class="box">
+        <h3>contact info</h3>
+        <a href="#"> <i class="fas fa-phone"></i>+92**********</a>
+        <a href="#"> <i class="fas fa-phone"></i>051******* </a>
+        <a href="#"> <i class="fas fa-envelope"></i>example@gmail.com </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i>Rawalpindi, Pakistan</a>
+      </div>
+      <div class="box">
+        <h3>Contact Info</h3>
+        <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+        <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+        <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+        <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+        <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+      </div>
+    </div>
+    <div class="credit"> Mahshood Ahmed & Jawad Ali | all rights reserved </div>
+  </section>
+  </body>
+</html>
